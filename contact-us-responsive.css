@@ -1,0 +1,23 @@
+@media screen and (max-width: 1440px) {
+    .header {
+        padding: 1rem 2%; 
+    }
+
+    .navbar {
+        margin-right: 5%; 
+    }
+
+    .logo {
+        margin-left: 1%;
+    }
+
+    
+}
+
+@media (max-width: 992px){
+    .header {
+        padding: 1.3rem 5%;
+    }
+
+
+}

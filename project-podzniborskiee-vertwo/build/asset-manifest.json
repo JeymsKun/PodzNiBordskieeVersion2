@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/amantiad-maserin/static/css/main.a373cc76.css",
+    "main.js": "/amantiad-maserin/static/js/main.dcc88eee.js",
+    "static/js/453.d2f02348.chunk.js": "/amantiad-maserin/static/js/453.d2f02348.chunk.js",
+    "static/media/4.webp": "/amantiad-maserin/static/media/4.16286f9950d090738faf.webp",
+    "static/media/Chicken-Adobo.webp": "/amantiad-maserin/static/media/Chicken-Adobo.82fd4d975b436c53a0cb.webp",
+    "static/media/3.webp": "/amantiad-maserin/static/media/3.d817315b98d39f4209c9.webp",
+    "static/media/Squid-Adobo.webp": "/amantiad-maserin/static/media/Squid-Adobo.a6d02a86e21793bb0068.webp",
+    "static/media/5.webp": "/amantiad-maserin/static/media/5.1a7d1283166bd7c1aaff.webp",
+    "static/media/Egg-Adobo.webp": "/amantiad-maserin/static/media/Egg-Adobo.45359bf8c831060b7575.webp",
+    "static/media/Beef-Adobo.webp": "/amantiad-maserin/static/media/Beef-Adobo.d613bc13e40a92cdc3b8.webp",
+    "static/media/2.webp": "/amantiad-maserin/static/media/2.26ab125e80be1995eea2.webp",
+    "static/media/1.webp": "/amantiad-maserin/static/media/1.eaff5005f89438dbc75d.webp",
+    "static/media/Fish-Adobo.webp": "/amantiad-maserin/static/media/Fish-Adobo.67ddd75e2442f1dbb013.webp",
+    "static/media/Pork-Adobo.webp": "/amantiad-maserin/static/media/Pork-Adobo.c7f5b676630d59cacdd5.webp",
+    "static/media/Goat-Adobo.webp": "/amantiad-maserin/static/media/Goat-Adobo.3bb3fde6a146744fc0ad.webp",
+    "static/media/Frog-Adobo.webp": "/amantiad-maserin/static/media/Frog-Adobo.84987aa30af97bad8f90.webp",
+    "static/media/logo.webp": "/amantiad-maserin/static/media/logo.c6c9eb648760b94554a8.webp",
+    "index.html": "/amantiad-maserin/index.html",
+    "main.a373cc76.css.map": "/amantiad-maserin/static/css/main.a373cc76.css.map",
+    "main.dcc88eee.js.map": "/amantiad-maserin/static/js/main.dcc88eee.js.map",
+    "453.d2f02348.chunk.js.map": "/amantiad-maserin/static/js/453.d2f02348.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a373cc76.css",
+    "static/js/main.dcc88eee.js"
+  ]
+}

@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    z-index: -1;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.menu {
+    display: none;
+}
+
+.navbar a {
+    font-family: 'Poppins',  sans-serif;
+    font-size: 1.15rem; 
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 2.5rem;
+  
+}
+
+.home-btn {
+    color: #0d6d0d;
+}
+
+.recipes-btn {
+    color: #258d2a;
+}
+
+.about-us-btn {
+    color: #1f9e13;
+}
+
+.contact-btn {
+    color: #3cb400;
+}
+
+.navbar a:hover {
+    color: #89fc0e;
+}
+
+#check{
+    display: none;
+}
+
+.icons {
+    position: absolute;
+    right: 5%; /* adjust lng ni utro. original 5%*/
+    cursor: pointer;
+    display: none;
+}
+
+.bottom-adjust {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-adjust {
+    background-image: linear-gradient(to right, #0d6d0d, #258d2a, #1f9e13, #3cb400, #5eb600);
+    width: 50%;
+    height: 40%;
+
+}
+
+.adjust-bottom {
+    position: absolute;
+    top: 0;
+    margin-left: 22rem;
+    margin-top: 75rem;
+
+}
+
+.more-info {
+    position: absolute;
+    top: 2%;
+    right: 0; 
+    margin-right: 33rem;
+
+}
+
+.all {
+    list-style-type: none;
+}
+
+.all a {
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 3;
+    color: white;
+   
+}   
+
+.footer-copyright {
+    position: absolute;
+    top: 0;
+    right: 28%;
+    margin-top: 15rem;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+}
+
+
+.fa-facebook {
+    color: white;
+    font-size: 20px;
+
+}
+
+.contact-info {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-info {
+    position: absolute;
+    top: 0;
+    margin-top: 10rem;
+}
+
+.container-info {
+    color: #258d2a;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.container-info h1, h2 {
+    text-align: center;
+    color: #0d6d0d;
+}
+
+.container-info h1 {
+    font-size: 2rem;
+}
+
+.container-info h2 {
+    font-size: 3rem;
+}
+
+.container-info span {
+    font-size: 1.3rem;
+}
+
+.number {
+    text-decoration: underline;
+    color: #3cb400;
+}
+
+.call {
+    font-size: 1rem;
+    font-weight: 450;
+}
+
+.write {
+    font-size: 1rem;
+    font-weight: 450;
+}
+
+.gmail {
+    color: #3cb400;
+    text-decoration: underline;
+
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Search Food | Podz Ni Bordskiee</title>
+    <link href="food-details-responsive.css" rel="stylesheet" />
+    <link href="food-details-style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" type="x-icon" href="favicon.png">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo"><img src="logo.png" alt="logo"></a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="index.html" style="--i:0;" class="home-btn">Home</a>
+            <a href="recipes.html" style="--i:1;" class="recipes-btn">Recipes</a>
+            <a href="about-us.html" style="--i:2;" class="about-us-btn">About Us</a>
+            <a href="contact-us.html" style="--i:3;" class="contact-btn">Contact Us</a>
+            <!-- <a href="sign-up.html" style="--i:4;" class="login-btn">Sign Up</a> -->
+        </nav>
+    </header>
+
+    <div class="food-details-container container-food-details">
+        <h1 id="food-name"></h1>
+        <img id="food-image" src="" alt="sample image">
+        <p id="food-description"></p>
+        <h2>Ingredients:</h2>
+        <ul id="food-ingredients"></ul>
+        <h2>Instructions:</h2>
+        <p id="food-instructions"></p>
+    </div>
+
+    
+    <form>
+        <div class="form-search">
+            <p>
+                You can discover more recipes and dishes.
+            </p>
+
+            <div class="search">
+                <span class="search-icon material-symbols-outlined">search</span>
+                <input class="search-input" type="search" placeholder="Search">
+            </div>
+
+            <ul class="search-suggestions"></ul>
+        </div>
+    </form>
+
+    <div class="bottom-adjust adjust-bottom">
+        <section class="bottom-area">
+            <div class="more-info">
+                <ul class="all">
+                    <li><a href="legal-notice.html">Legal Notice</a></li>
+                    <li><a href="privacy-notice.html">Privacy Notice</a></li>
+                    <li><a href="cookie-notice.html">Cookie Notice</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <footer class="copyright-podz-ni-bordskiee">
+            <div class="footer-copyright">
+                <p class="copyright">
+                    © 2024 Podz Ni Bordskiee<br />
+                    Follow us on Facebook <i class="fa-brands fa-facebook"></i><a
+                        href="https://www.facebook.com/bordzkie.bedz" style="text-decoration: none; color: white;">
+                        @PodzNiBordskiee</a>
+                </p>
+
+
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const searchInput = document.querySelector('.search-input');
+        const searchSuggestions = document.querySelector('.search-suggestions');
+
+        searchSuggestions.classList.add('hidden');
+
+        searchInput.addEventListener('input', (e) => {
+            const userInput = e.target.value.trim();
+            if (userInput.length > 0) {
+                searchSuggestions.classList.remove('hidden');
+
+                fetch('foods.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        const suggestions = [];
+                        data.forEach((food) => {
+                            if (food.name.toLowerCase().includes(userInput.toLowerCase())) {
+                                suggestions.push(food);
+                            }
+                        });
+                        if (suggestions.length === 0) {
+                            searchSuggestions.innerHTML = '<li>No results found</li>';
+                        } else {
+                            searchSuggestions.innerHTML = '';
+                            suggestions.forEach((suggestion) => {
+                                const suggestionHTML = `
+                                    <li>
+                                        <a href="food-details.html?id=${suggestion.id}" data-food-id="${suggestion.id}">
+                                        ${suggestion.name}
+                                        </a>
+                                    </li>
+                                    `;
+                                searchSuggestions.innerHTML += suggestionHTML;
+                            });
+                        }
+                    });
+            } else {
+                searchSuggestions.classList.add('hidden');
+            }
+        });
+    </script>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const foodId = urlParams.get('id');
+
+        fetch(`foods.json`)
+            .then(response => response.json())
+            .then(data => {
+                const selectedFood = data.find((food) => food.id === parseInt(foodId));
+                if (selectedFood) {
+                    document.querySelector('#food-name').textContent = selectedFood.name;
+                    document.querySelector('#food-image').src = `${selectedFood.image}`;
+                    document.querySelector('#food-description').textContent = selectedFood.description;
+                    document.querySelector('#food-ingredients').innerHTML = selectedFood.ingredients.map((ingredient) => `<li>${ingredient}</li>`).join('');
+                    
+                    const instructionsHTML = selectedFood.instructions.map((instruction, index) => {
+                        const sentences = instruction.split('. ');
+                        const numberedSentences = sentences.map((sentence, i) => {
+                            const number = i === 0 ? index + 1 : '';
+                            return `<p>${number ? number + '. ' : ''}${sentence}</p>`;
+                        });
+                        return numberedSentences.join('');
+                    }).join('');
+
+                    document.querySelector('#food-instructions').innerHTML = instructionsHTML;
+                } else {
+                    document.querySelector('.food-details-container').textContent = 'Food not found';
+                }
+            });
+    </script>
+
+</body>
+
+</html>
