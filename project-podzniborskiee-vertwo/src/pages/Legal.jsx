@@ -1,14 +1,14 @@
 import React from 'react';
-import Legal from '../components/Legal';
+import LegalNotice from '../components/Legal';
 
 
-function Home() {
+function Legal() {
   return (
     <>
-    <Legal />
+    <LegalNotice />
 
     </>
   );
 }
 
-export default Home;
+export default Legal;

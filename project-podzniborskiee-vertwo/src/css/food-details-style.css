@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.food-details-container {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-food-details {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.container-food-details {
+    font-family: 'Poppins', sans-serif;
+}
+
+#food-name {
+    font-size: 2rem;
+    color: #0d6d0d;
+    padding: 20px;
+}
+
+#food-image {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+
+}
+
+#food-description {
+    text-align: justify;
+    font-size: 1.3rem;
+    color: #0d6d0d;
+    padding: 20px;
+}
+
+.food-details-container h2 {
+    text-align: justify;
+    font-size: 2rem;
+    color: #0d6d0d;
+    padding: 15px;
+
+}
+
+#food-ingredients {
+    list-style-type: none;
+    text-align: justify;
+    font-size: 1.3rem;
+    color: #0d6d0d;
+    padding: 15px;
+    
+}
+
+#food-instructions {
+    text-align: justify;
+    width: 100%;
+    font-size: 1.3rem;
+    color: #0d6d0d;
+    padding: 20px;
+}
+
+.bottom-adjust {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-adjust {
+    background-image: linear-gradient(to right, #0d6d0d, #258d2a, #1f9e13, #3cb400, #5eb600);
+    width: 50%;
+    height: 40%;
+
+}
+
+.adjust-bottom {
+    position: absolute;
+    top: 0;
+    margin-left: 22rem;
+    margin-top: 90rem;
+
+}
+
+.more-info {
+    position: absolute;
+    top: 2%;
+    right: 0; 
+    margin-right: 33rem;
+
+}
+
+.all {
+    list-style-type: none;
+}
+
+.all a {
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    line-height: 3;
+    color: white;
+   
+}   
+
+.footer-copyright {
+    position: absolute;
+    top: 0;
+    right: 28%;
+    margin-top: 15rem;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+}
+
+
+.fa-facebook {
+    color: white;
+    font-size: 20px;
+
+}

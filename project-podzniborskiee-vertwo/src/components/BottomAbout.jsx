@@ -1,15 +1,14 @@
 import React from 'react';
 import '../css/about-us-style.css';
-import '../css/about-us-responsive.css';
 import '../App.css';
 import { Link } from 'react-router-dom';
 
-function Bottom() {
+function BottomAbout() {
     return (
-        <div className="bottom-adjust adjust-bottom">
+        <div className="bottom-about about-bottom">
             <section className="bottom-area">
-                <div className="more-info">
-                    <ul className="all">
+                <div className="about-info">
+                    <ul className="info">
                         <li><Link to="/legal">Legal Notice</Link></li>
                         <li><Link to="/privacy">Privacy Notice</Link></li>
                         <li><Link to="/cookie">Cookie Notice</Link></li>
@@ -18,8 +17,8 @@ function Bottom() {
             </section>
 
             <footer className="copyright-podz-ni-bordskiee">
-                <div className="footer-copyright">
-                    <p className="copyright">
+                <div className="footer">
+                    <p className="copyright-about">
                         © 2024 Podz Ni Bordskiee<br />
                         Follow us on Facebook <i className="fa-brands fa-facebook"></i><a
                             href="https://www.facebook.com/bordzkie.bedz" style={{ textDecoration: 'none', color: 'white' }}>
@@ -31,4 +30,4 @@ function Bottom() {
     );
 }
 
-export default Bottom;
+export default BottomAbout;

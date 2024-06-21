@@ -1,14 +1,14 @@
 import React from 'react';
-import Cookie from '../components/Cookie';
+import CookieNotice from '../components/Cookie';
 
 
-function Home() {
+
+function Cookie() {
   return (
     <>
-    <Cookie />
-
+    <CookieNotice />
     </>
   );
 }
 
-export default Home;
+export default Cookie;

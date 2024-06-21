@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/HeaderRecipes';
+import Header from '../components/Header';
 import Search from '../components/SearchRecipes';
 import Bottom from '../components/BottomRecipes';
 

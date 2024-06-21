@@ -1,14 +1,14 @@
 import React from 'react';
-import Privacy from '../components/Privacy';
+import PrivacyNotice from '../components/Privacy';
 
 
-function Home() {
+function Privacy() {
   return (
     <>
-    <Privacy />
+    <PrivacyNotice />
 
     </>
   );
 }
 
-export default Home;
+export default Privacy;

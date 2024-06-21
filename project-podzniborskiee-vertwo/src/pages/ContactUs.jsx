@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from '../components/HeaderContact';
+import Header from '../components/Header';
 import Contact from '../components/Contact';
 import Bottom from '../components/BottomContact';
 
 
-function AboutUs() {
+function ContactUs() {
   return (
     <>
       <Header />
@@ -15,4 +15,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default ContactUs;
