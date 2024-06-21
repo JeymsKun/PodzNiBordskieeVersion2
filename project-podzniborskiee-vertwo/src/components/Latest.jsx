@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 import dishOneImage from '../img/Chicken-Adobo.webp';
 import dishTwoImage from '../img/Pork-Adobo.webp';
 import dishThreeImage from '../img/Beef-Adobo.webp';
@@ -18,7 +19,7 @@ function Latest() {
                 .overlay-chicken,.overlay-pork,.overlay-beef,.overlay-goat,.overlay-frog,.overlay-egg,.overlay-fish,.overlay-squid{position:absolute;bottom:0;overflow:hidden;width:100%;height:0;background-color:rgba(0,0,0,0.5);transition:.5s ease}
                 .dish-one,.dish-two,.dish-three,.dish-four,.dish-five,.dish-six,.dish-seven,.dish-eight{position:relative;justify-content:center;align-items:center;display:flex}
                 .Chicken img,.Pork img,.Beef img,.Goat img,.Frog img,.Egg img,.Fish img,.Squid img{position:relative;border-radius:25px;width:350px;height:350px;transition:transform .3s ease-in-out}
-                .text-chicken,.text-pork,.text-beef,.text-goat,.text-frog,.text-egg,.text-fish,.text-squid{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;font-size:1.1rem;font-weight:700;font-family:'Poppins',sans-serif;color:#fff}
+                .text-chicken,.text-pork,.text-beef,.text-goat,.text-frog,.text-egg,.text-fish,.text-squid{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;font-size:1.1rem;font-weight:700;font-family:'Poppins',sans-serif;color:#fff;text-decoration: none}
                 .Chicken:hover img,.Pork:hover img,.Beef:hover img,.Goat:hover img,.Frog:hover img,.Egg:hover img,.Fish:hover img,.Squid:hover img{border:3px solid #01e21f;box-shadow:0 0 8px #258d2a;transform:scale(1.1)}
                 .Chicken:hover .overlay-chicken,.Pork:hover .overlay-pork,.Beef:hover .overlay-beef,.Goat:hover .overlay-goat,.Frog:hover .overlay-frog,.Egg:hover .overlay-egg,.Fish:hover .overlay-fish,.Squid:hover .overlay-squid{height:30%;border-radius:25px}
                 .Chicken{position:absolute;top:0;right:0;padding:0 auto;margin-top:25rem;margin-right:5rem}
@@ -40,7 +41,7 @@ function Latest() {
                 </div>
 
                 <div className="overlay-chicken">
-                <div className="text-chicken">Adobong Manok</div>
+                <Link to='/food-details/11' className='text-chicken'>Adobong Manok</Link>
                 </div>
             </div>
             </div>
@@ -52,7 +53,7 @@ function Latest() {
                 </div>
 
                 <div className="overlay-pork">
-                <div className="text-pork">Adobong Baboy</div>
+                <Link to='/food-details/12' className='text-pork'>Adobong Baboy</Link>
                 </div>
             </div>
             </div>
@@ -64,7 +65,7 @@ function Latest() {
                 </div>
 
                 <div className="overlay-beef">
-                <div className="text-beef">Adobong Baka</div>
+                <Link to='/food-details/13' className='text-beef'>Adobong Baka</Link>
                 </div>
             </div>
             </div>
@@ -76,7 +77,7 @@ function Latest() {
                 </div>
 
                 <div className="overlay-goat">
-                <div className="text-goat">Adobong Kambing</div>
+                <Link to='/food-details/18' className='text-goat'>Adobong Kambing</Link>
                 </div>
             </div>
             </div>
@@ -88,7 +89,7 @@ function Latest() {
                 </div>
 
                 <div className="overlay-frog">
-                <div className="text-frog">Adobong Palaka</div>
+                <Link to='/food-details/17' className='text-frog'>Adobong Palaka</Link>
                 </div>
             </div>
             </div>
@@ -100,7 +101,7 @@ function Latest() {
                 </div>
 
                 <div className="overlay-egg">
-                <div className="text-egg">Adobong Itlog</div>
+                <Link to='/food-details/14' className='text-egg'>Adobong Itlog</Link>
                 </div>
             </div>
             </div>
@@ -112,7 +113,7 @@ function Latest() {
                 </div>
 
                 <div className="overlay-fish">
-                <div className="text-fish">Adobong Isda</div>
+                <Link to='/food-details/16' className='text-fish'>Adobong Isda</Link>
                 </div>
             </div>
             </div>
@@ -124,7 +125,7 @@ function Latest() {
                 </div>
 
                 <div className="overlay-squid">
-                <div className="text-squid">Adobong Pusit</div>
+                <Link to='/food-details/15' className='text-squid'>Adobong Pusit</Link>
                 </div>
             </div>
             </div>

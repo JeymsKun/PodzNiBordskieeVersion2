@@ -12,7 +12,7 @@ function Header() {
           .header{position:fixed;top:0;left:0;width:100%;padding:1.5rem 10%;display:flex;justify-content:space-between;align-items:center;z-index:100;box-shadow:0 .5rem 1rem rgba(0,0,0,.2)}
           .header::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background-color:#fff;z-index:-1}
           .logo{display:flex;align-items:center}
-          .logo img{width:50px}
+          .logo img{width:50px;height:auto}
           .navbar a{font-family:'Poppins',sans-serif;font-size:1rem;text-decoration:none;font-weight:800;margin-left:2.5rem;transition:color .3s ease;}
           .home-btn{color:#0d6d0d}
           .recipes-btn{color:#258d2a}
@@ -81,7 +81,7 @@ function Header() {
 
       <header className="header">
         <Link to="/home/" className="logo">
-          <img src={projectLogo} alt="logo" />
+        <img src={projectLogo} alt="logo" width="50" height="50" />
         </Link>
 
         <input type="checkbox" id="check" />

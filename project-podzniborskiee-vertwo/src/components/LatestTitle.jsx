@@ -14,7 +14,7 @@ function LatestTitle() {
           }
           .welcome-the-most-message {
               position: absolute;
-              margin-top: 20rem;
+              margin-top: 30rem;
           }        
           .top-message {
               font-family: 'Poppins', sans-serif;

@@ -14,9 +14,9 @@ function Welcome() {
           }
           .welcome-text {
               position: absolute;
-              margin-top: 60rem;
+              margin-top: 49rem;
               right: 0;
-              margin-right: 30rem;
+              margin-right: 40rem;
           }
           .welcome-text {
               transform: translate(-50%, -50%);
