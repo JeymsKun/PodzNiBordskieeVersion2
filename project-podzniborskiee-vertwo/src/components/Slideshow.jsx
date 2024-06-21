@@ -38,14 +38,14 @@ function Slideshow() {
             align-items: center;
           }
           .photo-slider{
-              width: 1200px;
-              height: 700px;
+              width: 1000px;
+              height: 600px;
               border-radius: 20px;
               overflow: hidden;
           }
           .photo-slides{
               width: 500%;
-              height: 700px;
+              height: 600px;
               display: flex;
           }
           .photo-slides input{
@@ -56,12 +56,12 @@ function Slideshow() {
               transition: 2s;
           }
           .slide img{
-              width: 1200px;
-              height: 700px;
+              width: 1000px;
+              height: 600px;
           }
           .navigation-manual{
               position: absolute;
-              width: 1200px;
+              width: 1000px;
               margin-top: -40px;
               display: flex;
               justify-content: center;
@@ -98,9 +98,9 @@ function Slideshow() {
           .navigation-auto{
               position: absolute;
               display: flex;
-              width: 1200px;
+              width: 1000px;
               justify-content: center;
-              margin-top: 660px;
+              margin-top: 560px;
           }
           .navigation-auto div{
               border: 2px solid #258d2a;

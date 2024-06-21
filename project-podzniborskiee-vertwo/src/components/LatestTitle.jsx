@@ -14,11 +14,11 @@ function LatestTitle() {
           }
           .welcome-the-most-message {
               position: absolute;
-              margin-top: 25rem;
+              margin-top: 20rem;
           }        
           .top-message {
               font-family: 'Poppins', sans-serif;
-              font-size: 1.5rem; 
+              font-size: 2rem; 
               font-weight: 600;
               margin-bottom: 20px;
               line-height: 1.8;

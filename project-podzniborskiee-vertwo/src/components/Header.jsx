@@ -13,7 +13,7 @@ function Header() {
           .header::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background-color:#fff;z-index:-1}
           .logo{display:flex;align-items:center}
           .logo img{width:50px}
-          .navbar a{font-family:'Poppins',sans-serif;font-size:1.15rem;text-decoration:none;font-weight:600;margin-left:2.5rem;transition:color .3s ease}
+          .navbar a{font-family:'Poppins',sans-serif;font-size:1rem;text-decoration:none;font-weight:800;margin-left:2.5rem;transition:color .3s ease;}
           .home-btn{color:#0d6d0d}
           .recipes-btn{color:#258d2a}
           .about-us-btn{color:#1f9e13}

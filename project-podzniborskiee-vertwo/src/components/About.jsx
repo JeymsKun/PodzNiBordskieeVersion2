@@ -1,5 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import FirstProfile from '../img/amantiad.webp';
+import SecondProfile from '../img/maserin.webp';
 
 function About() {
     return (
@@ -7,7 +9,7 @@ function About() {
             <Helmet>
                 <style>{`
                     .about-us-container {
-                        position:  relative;
+                        position: relative;
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -18,9 +20,6 @@ function About() {
                         top: 25%;
                         margin-left: 13rem;
                         padding: 5rem;
-                        
-                    }
-                    .container-about-us {
                         background-color: #fff;
                         border-radius: 8px;
                         box-shadow: 0 0 10px rgb(12, 155, 19);
@@ -55,6 +54,51 @@ function About() {
                         color: #1f9e13;
                         text-decoration: underline;
                     }
+                    .profiles-container {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 2rem; /* Add some space between the profiles */
+                        margin-top: 2rem;
+                    }
+                    .profile {
+                        font-family: 'Poppins', sans-serif;
+                        text-align: center;
+                        max-width: 300px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                        padding: 20px;
+                        border-radius: 8px;
+                    }
+                    .profile img {
+                        width: 150px;
+                        height: 150px;
+                        object-fit: cover;
+                        border-radius: 50%;
+                        border: 4px solid;
+                        color: #3cb400;
+                        margin: 0 auto 20px auto;
+                        overflow: hidden;
+                        background-color: rgba(0,0,0,0.5);
+                        transition: .5s ease;
+                    }
+                    .profile:hover img {
+                        width: 250px;
+                        height: 250px;
+                        border: 3px solid;
+                        transform: scale(1.1);
+                        border-radius: 5%;
+                        margin-top:
+                    }
+                    .profile-name {
+                        color: #0e750e;
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                        padding: 15px;
+                    }
+                    .profile-title {
+                        margin-bottom: 20px;
+                        color: #1f9e13;
+                    }
                 `}</style>
             </Helmet>
             <div className="container-about-us about-us-container">
@@ -78,10 +122,21 @@ function About() {
                     <p>Podz Ni Bordskiee was created by a team of passionate food enthusiasts who share a love for culinary
                         exploration and creativity.</p>
                     <p>Our team members are:</p>
-                    <ul>
-                        <li>James David R. Maserin - Co-founder & Web Developer</li>
-                        <li>Christian Paul P. Amantiad- Co-founder & Web Developer</li>
-                    </ul>
+
+                    <div className="profiles-container">
+                        <div className="profile">
+                            <img src={FirstProfile} alt="Amantiad" />
+                            <div className="profile-name">Christian Paul P. Amantiad</div>
+                            <div className="profile-title">Web Developer and Co-founder at Podz Ni Bordskiee</div>
+                        </div>
+
+                        <div className="profile">
+                            <img src={SecondProfile} alt="Maserin" />
+                            <div className="profile-name">James David R. Maserin</div>
+                            <div className="profile-title">Web Developer and Co-founder at Podz Ni Bordskiee</div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

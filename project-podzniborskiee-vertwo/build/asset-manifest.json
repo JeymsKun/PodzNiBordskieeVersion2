@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/amantiad-maserin/static/css/main.b8fcee33.css",
-    "main.js": "/amantiad-maserin/static/js/main.5d442bd8.js",
+    "main.css": "/amantiad-maserin/static/css/main.bce85c94.css",
+    "main.js": "/amantiad-maserin/static/js/main.56985c33.js",
     "static/js/453.d2f02348.chunk.js": "/amantiad-maserin/static/js/453.d2f02348.chunk.js",
+    "static/media/amantiad.webp": "/amantiad-maserin/static/media/amantiad.411fa04bc72cd7cd49c8.webp",
     "static/media/4.webp": "/amantiad-maserin/static/media/4.3b5ec85c3fcb9529ea57.webp",
     "static/media/Chicken-Adobo.webp": "/amantiad-maserin/static/media/Chicken-Adobo.25478ae581480312054b.webp",
     "static/media/3.webp": "/amantiad-maserin/static/media/3.f15ac2bd9efadfb5fca5.webp",
@@ -16,14 +17,15 @@
     "static/media/Pork-Adobo.webp": "/amantiad-maserin/static/media/Pork-Adobo.9528936e9b52b7f91f38.webp",
     "static/media/Egg-Adobo.webp": "/amantiad-maserin/static/media/Egg-Adobo.bdd067a2ed1ae3545ea0.webp",
     "static/media/Frog-Adobo.webp": "/amantiad-maserin/static/media/Frog-Adobo.b7ee4c9a449af73caafa.webp",
+    "static/media/maserin.webp": "/amantiad-maserin/static/media/maserin.4fe2940e595cb63aa93a.webp",
     "static/media/logo.webp": "/amantiad-maserin/static/media/logo.6c16109f053864c5e9cf.webp",
     "index.html": "/amantiad-maserin/index.html",
-    "main.b8fcee33.css.map": "/amantiad-maserin/static/css/main.b8fcee33.css.map",
-    "main.5d442bd8.js.map": "/amantiad-maserin/static/js/main.5d442bd8.js.map",
+    "main.bce85c94.css.map": "/amantiad-maserin/static/css/main.bce85c94.css.map",
+    "main.56985c33.js.map": "/amantiad-maserin/static/js/main.56985c33.js.map",
     "453.d2f02348.chunk.js.map": "/amantiad-maserin/static/js/453.d2f02348.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8fcee33.css",
-    "static/js/main.5d442bd8.js"
+    "static/css/main.bce85c94.css",
+    "static/js/main.56985c33.js"
   ]
 }

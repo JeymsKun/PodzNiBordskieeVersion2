@@ -9,7 +9,7 @@ function Bottom() {
         <style>
           {`
           .bottom-area-adjust{position:relative;display:flex;justify-content:center;align-items:center;background-image:linear-gradient(to right,#0d6d0d,#258d2a,#1f9e13,#3cb400,#5eb600);width:50%;height:40%}
-          .area-adjust-bottom{position:absolute;top:0;left:0;margin-top:250rem;margin-left:20rem}
+          .area-adjust-bottom{position:absolute;top:0;left:0;margin-top:240rem;margin-left:22rem}
           .more-information{position:absolute;top:2%;right:0;margin-right:33rem}
           .important{list-style-type:none}
           .important a{font-weight:500;font-family:'Poppins',sans-serif;line-height:3;color:#fff}

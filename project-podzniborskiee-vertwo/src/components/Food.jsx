@@ -30,10 +30,12 @@ function Food() {
     return numberedSentences;
   });
 
+  const imagePath = require(`../foods/${food.image}`);
+
   return (
     <div className="food-details-container container-food-details">
       <h1 id="food-name">{food.name}</h1>
-      <img id="food-image" src={food.image} alt={food.name} />
+      <img id="food-image" src={imagePath} alt={food.name} />
       <p id="food-description">{food.description}</p>
       <h2>Ingredients:</h2>
       <ul id="food-ingredients">
@@ -44,7 +46,6 @@ function Food() {
       <h2>Instructions:</h2>
       <div id="food-instructions">{instructionsHTML}</div>
     </div>
-
   );
 }
 

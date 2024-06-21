@@ -37,7 +37,7 @@ function SearchRecipes() {
                     .form-search {
                         position: absolute;
                         margin-top: 40rem;
-                        margin-left: 5rem;
+                        margin-left: 1rem;
                     
                     }
                     .search {
@@ -59,7 +59,7 @@ function SearchRecipes() {
                         margin-bottom: 25px;
                     }
                     .search:focus-within {
-                        box-shadow: 0 0 8px #258d2a;
+                        box-shadow: 0 5px 25px #258d2a;
                     }
                     .search-input {
                         font-size: 1rem;
@@ -71,23 +71,16 @@ function SearchRecipes() {
                         background: transparent;
                         width: 700px;
                     }
-                    .material-symbols-outlined {
-                        color: #258d2a;
-                    }
-                    .search-input::placeholder
-                    .search-icon {
-                        color: rgba(0, 0, 0, 0.25)
-                    }
                     .search-suggestions {
                         position: absolute;
                         top: 105%;
                         left: 0;
                         background-color: #fff;
                         border: 1px solid #ddd;
-                        box-shadow: 0 0 8px #258d2a;
+                        box-shadow: 0 0 15px #258d2a;
                         border-radius: 20px;
                         padding: 30px;
-                        width: 700px;
+                        width: 680px;
                         max-height: 200px;
                         overflow-y: auto;
                     }
@@ -111,11 +104,10 @@ function SearchRecipes() {
                 <div className="form-search">
                     <p>You can search anytime and discover more recipes and dishes.</p>
                     <div className="search">
-                    <span className="search-icon material-symbols-outlined">search</span>
                     <input
                         className="search-input"
                         type="search"
-                        placeholder="Search"
+                        placeholder="Click Here to Search"
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
                     />

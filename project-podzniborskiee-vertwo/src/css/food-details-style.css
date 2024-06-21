@@ -26,6 +26,7 @@
     font-size: 2rem;
     color: #0d6d0d;
     padding: 20px;
+    margin-top: 110px;
 }
 
 #food-image {
@@ -85,7 +86,7 @@
     position: absolute;
     top: 0;
     margin-left: 22rem;
-    margin-top: 90rem;
+    margin-top: 100rem;
 
 }
 

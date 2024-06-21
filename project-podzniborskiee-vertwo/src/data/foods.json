@@ -16,7 +16,7 @@
             "Add croutons and Parmesan cheese.",
             "Top with grilled chicken (optional)."
         ],
-        "image": "caesar-salad.jpg"
+        "image": "caesar-salad.webp"
     },
     {
         "id": 2,
@@ -40,7 +40,7 @@
             "Drizzle with olive oil and lemon juice.",
             "Season with salt and pepper to taste."
         ],
-        "image": "greek-salad.jpg"
+        "image": "greek-salad.webp"
     },
     {
         "id": 3,
@@ -62,7 +62,7 @@
             "Drizzle with olive oil and season with salt and pepper.",
             "Bake for 10-12 minutes, or until the crust is golden brown and the cheese is melted."
         ],
-        "image": "margherita-pizza.jpg"
+        "image": "margherita-pizza.webp"
     },
     {
         "id": 4,
@@ -84,7 +84,7 @@
             "Drizzle with olive oil and season with salt and pepper.",
             "Bake for 10-12 minutes, or until the crust is golden brown and the cheese is melted."
         ],
-        "image": "pepperoni-pizza.jpg"
+        "image": "pepperoni-pizza.webp"
     },
     {
         "id": 5,
@@ -110,7 +110,7 @@
             "Slice the sushi roll into bite-sized pieces.",
             "Serve with soy sauce, wasabi, and pickled ginger."
         ],
-        "image": "california-roll.jpg"
+        "image": "california-roll.webp"
     },
     {
         "id": 6,
@@ -134,7 +134,7 @@
             "Slice the sushi roll into bite-sized pieces.",
             "Serve with soy sauce, wasabi, and pickled ginger."
         ],
-        "image": "tuna-roll.jpg"
+        "image": "tuna-roll.webp"
     },
     {
         "id": 7,
@@ -157,7 +157,7 @@
             "Fill each taco with seasoned ground beef, shredded lettuce, diced tomatoes, and shredded cheese.",
             "Top with sour cream and salsa."
         ],
-        "image": "soft-shell-tacos.jpg"
+        "image": "softshell-tacos.webp"
     },
     {
         "id": 8,
@@ -180,7 +180,7 @@
             "Fill each taco with seasoned ground beef, shredded lettuce, diced tomatoes, and shredded cheese.",
             "Top with sour cream and salsa."
         ],
-        "image": "hard-shell-tacos.jpg"
+        "image": "hardshell-tacos.webp"
     },
     {
         "id": 9,
@@ -202,7 +202,7 @@
             "Serve chicken Alfredo over cooked fettuccine noodles.",
             "Garnish with parsley."
         ],
-        "image": "chicken-alfredo.jpg"
+        "image": "chicken-alfredo.webp"
     },
     {
         "id": 10,
@@ -226,6 +226,354 @@
             "Bake for 25-30 minutes, or until chicken is cooked through and cheese is melted.",
             "Garnish with parsley."
         ],
-        "image": "chicken-parmesan.jpg"
+        "image": "chicken-parmesan.webp"
+    },
+    {
+        "id": 11,
+        "name": "Chicken Adobo",
+        "description": "A Filipino dish made with chicken simmered in soy sauce, vinegar, garlic, and various spices until tender and flavorful.",
+        "ingredients": [
+            "Chicken pieces",
+            "Soy sauce",
+            "Vinegar",
+            "Garlic",
+            "Bay leaves",
+            "Peppercorns",
+            "Water",
+            "Oil"
+        ],
+        "instructions": [
+            "In a large pot, combine soy sauce, vinegar, garlic, bay leaves, peppercorns, and water.",
+            "Add chicken pieces to the pot and marinate for at least 30 minutes.",
+            "Bring the mixture to a boil over medium-high heat, then reduce the heat to low and simmer until chicken is tender, about 30-40 minutes.",
+            "Heat oil in a separate pan and fry the chicken pieces until browned and crispy, if desired.",
+            "Serve hot with steamed rice."
+        ],
+        "image": "chicken-adobo.webp"
+    },
+    {
+        "id": 12,
+        "name": "Pork Adobo",
+        "description": "A classic Filipino dish featuring pork simmered in soy sauce, vinegar, garlic, and spices until tender and flavorful.",
+        "ingredients": [
+            "Pork belly or shoulder",
+            "Soy sauce",
+            "Vinegar",
+            "Garlic",
+            "Bay leaves",
+            "Peppercorns",
+            "Water",
+            "Oil"
+        ],
+        "instructions": [
+            "In a large pot, combine soy sauce, vinegar, garlic, bay leaves, peppercorns, and water.",
+            "Add pork pieces to the pot and marinate for at least 30 minutes.",
+            "Bring the mixture to a boil over medium-high heat, then reduce the heat to low and simmer until pork is tender, about 1 hour or more depending on the cut.",
+            "Heat oil in a separate pan and fry the pork pieces until browned and crispy, if desired.",
+            "Serve hot with steamed rice."
+        ],
+        "image": "pork-adobo.webp"
+    },
+    {
+        "id": 13,
+        "name": "Beef Adobo",
+        "description": "A hearty Filipino dish made with beef simmered in soy sauce, vinegar, garlic, and spices until tender and flavorful.",
+        "ingredients": [
+            "Beef stew meat (such as chuck or brisket)",
+            "Soy sauce",
+            "Vinegar",
+            "Garlic",
+            "Bay leaves",
+            "Peppercorns",
+            "Water",
+            "Oil"
+        ],
+        "instructions": [
+            "In a large pot, combine soy sauce, vinegar, garlic, bay leaves, peppercorns, and water.",
+            "Add beef pieces to the pot and marinate for at least 30 minutes.",
+            "Bring the mixture to a boil over medium-high heat, then reduce the heat to low and simmer until beef is tender, about 1.5 to 2 hours.",
+            "Heat oil in a separate pan and fry the beef pieces until browned and caramelized, if desired.",
+            "Serve hot with steamed rice."
+        ],
+        "image": "beef-adobo.webp"
+    },
+    {
+        "id": 14,
+        "name": "Egg Adobo",
+        "description": "A variation of Filipino adobo made with hard-boiled eggs simmered in soy sauce, vinegar, garlic, and spices, absorbing the rich flavors of the sauce.",
+        "ingredients": [
+            "Hard-boiled eggs",
+            "Soy sauce",
+            "Vinegar",
+            "Garlic",
+            "Bay leaves",
+            "Peppercorns",
+            "Water",
+            "Oil"
+        ],
+        "instructions": [
+            "In a large pot, combine soy sauce, vinegar, garlic, bay leaves, peppercorns, and water.",
+            "Add hard-boiled eggs to the pot and simmer over low heat for about 15-20 minutes, allowing the eggs to absorb the flavors of the sauce.",
+            "Serve hot with steamed rice."
+        ],
+        "image": "egg-adobo.webp"
+    },
+    {
+        "id": 15,
+        "name": "Squid Adobo",
+        "description": "A seafood twist on Filipino adobo featuring tender squid simmered in soy sauce, vinegar, garlic, and spices until savory and tender.",
+        "ingredients": [
+            "Fresh squid",
+            "Soy sauce",
+            "Vinegar",
+            "Garlic",
+            "Bay leaves",
+            "Peppercorns",
+            "Water",
+            "Oil"
+        ],
+        "instructions": [
+            "Clean the squid thoroughly, removing the head, skin, and ink sac.",
+            "In a large pot, combine soy sauce, vinegar, garlic, bay leaves, peppercorns, and water.",
+            "Add the cleaned squid to the pot and simmer over low heat for about 20-30 minutes, until the squid is tender.",
+            "Serve hot with steamed rice."
+        ],
+        "image": "squid-adobo.webp"
+    },
+    {
+        "id": 16,
+        "name": "Fish Adobo",
+        "description": "A Filipino dish made with fish fillets (such as tilapia or mackerel) simmered in soy sauce, vinegar, garlic, and spices until tender and flavorful.",
+        "ingredients": [
+            "Fish fillets (tilapia, mackerel, or similar)",
+            "Soy sauce",
+            "Vinegar",
+            "Garlic",
+            "Bay leaves",
+            "Peppercorns",
+            "Water",
+            "Oil"
+        ],
+        "instructions": [
+            "In a large pot, combine soy sauce, vinegar, garlic, bay leaves, peppercorns, and water.",
+            "Add fish fillets to the pot and simmer over low heat for about 15-20 minutes, until the fish is cooked through and tender.",
+            "Serve hot with steamed rice."
+        ],
+        "image": "fish-adobo.webp"
+    },
+    {
+        "id": 17,
+        "name": "Frog Adobo",
+        "description": "A unique dish from the Philippines featuring frog legs simmered in soy sauce, vinegar, garlic, and spices until tender and flavorful.",
+        "ingredients": [
+            "Frog legs",
+            "Soy sauce",
+            "Vinegar",
+            "Garlic",
+            "Bay leaves",
+            "Peppercorns",
+            "Water",
+            "Oil"
+        ],
+        "instructions": [
+            "Clean the frog legs thoroughly.",
+            "In a large pot, combine soy sauce, vinegar, garlic, bay leaves, peppercorns, and water.",
+            "Add the cleaned frog legs to the pot and simmer over low heat for about 30-40 minutes, until the meat is tender.",
+            "Serve hot with steamed rice."
+        ],
+        "image": "frog-adobo.webp"
+    },
+    {
+        "id": 18,
+        "name": "Goat Adobo",
+        "description": "A flavorful Filipino dish made with goat meat simmered in soy sauce, vinegar, garlic, and spices until tender and savory.",
+        "ingredients": [
+            "Goat meat (such as shoulder or leg)",
+            "Soy sauce",
+            "Vinegar",
+            "Garlic",
+            "Bay leaves",
+            "Peppercorns",
+            "Water",
+            "Oil"
+        ],
+        "instructions": [
+            "In a large pot, combine soy sauce, vinegar, garlic, bay leaves, peppercorns, and water.",
+            "Add goat meat to the pot and marinate for at least 1 hour.",
+            "Bring the mixture to a boil over medium-high heat, then reduce the heat to low and simmer until goat meat is tender, about 2-3 hours depending on the cut.",
+            "Heat oil in a separate pan and fry the goat meat until browned, if desired.",
+            "Serve hot with steamed rice."
+        ],
+        "image": "goat-adobo.webp"
+    },
+    {
+        "id": 19,
+        "name": "Pork Sisig",
+        "description": "A popular Filipino dish made with chopped pork belly, seasoned with calamansi (or lime), soy sauce, vinegar, and chili peppers, usually served on a sizzling plate.",
+        "ingredients": [
+            "Pork belly",
+            "Calamansi or lime",
+            "Soy sauce",
+            "Vinegar",
+            "Chili peppers",
+            "Onion",
+            "Garlic",
+            "Mayonnaise (optional)",
+            "Egg (optional)",
+            "Salt and pepper"
+        ],
+        "instructions": [
+            "Boil pork belly until tender, then grill or broil until crispy.",
+            "Chop the grilled pork belly into small pieces.",
+            "In a pan, sauté garlic, onions, and chili peppers.",
+            "Add chopped pork belly, soy sauce, vinegar, and calamansi or lime juice.",
+            "Season with salt and pepper to taste.",
+            "Optional: Top with mayonnaise and/or a raw egg before serving.",
+            "Serve hot on a sizzling plate."
+        ],
+        "image": "pork-sisig.webp"
+    },
+    {
+        "id": 20,
+        "name": "Pancit",
+        "description": "A Filipino noodle dish typically made with bihon (rice noodles) or canton (egg noodles), mixed with vegetables, meat (such as chicken, pork, or shrimp), and flavored with soy sauce and citrus.",
+        "ingredients": [
+            "Bihon (rice noodles) or canton (egg noodles)",
+            "Vegetables (carrots, cabbage, bell peppers)",
+            "Chicken, pork, or shrimp",
+            "Soy sauce",
+            "Garlic",
+            "Onion",
+            "Chicken broth or water",
+            "Calamansi or lemon",
+            "Salt and pepper",
+            "Oil"
+        ],
+        "instructions": [
+            "Soak bihon or canton noodles in water until soft, then drain and set aside.",
+            "In a pan, sauté garlic and onions until fragrant.",
+            "Add chicken, pork, or shrimp and cook until meat is browned and cooked through.",
+            "Add vegetables and cook until tender-crisp.",
+            "Pour chicken broth or water into the pan and bring to a boil.",
+            "Add noodles and cook until liquid is absorbed and noodles are tender.",
+            "Season with soy sauce, calamansi or lemon juice, salt, and pepper to taste.",
+            "Serve hot as a main dish or side."
+        ],
+        "image": "pancit.webp"
+    },
+    {
+        "id": 21,
+        "name": "Ginisang Munggo",
+        "description": "A Filipino dish made with mung beans (monggo), sautéed with garlic, onions, tomatoes, and various vegetables, often flavored with pork or shrimp.",
+        "ingredients": [
+            "Mung beans (monggo)",
+            "Garlic",
+            "Onion",
+            "Tomatoes",
+            "Spinach or bitter melon leaves (ampalaya)",
+            "Pork belly or shrimp",
+            "Fish sauce",
+            "Salt and pepper",
+            "Oil"
+        ],
+        "instructions": [
+            "Boil mung beans in water until soft, then drain and set aside.",
+            "In a pan, sauté garlic, onions, and tomatoes until fragrant and softened.",
+            "Add pork belly or shrimp and cook until browned and cooked through.",
+            "Add boiled mung beans and mix well.",
+            "Add spinach or bitter melon leaves (ampalaya) and cook until wilted.",
+            "Season with fish sauce, salt, and pepper to taste.",
+            "Serve hot with steamed rice."
+        ],
+        "image": "ginisang-munggo.webp"
+    },
+    {
+        "id": 22,
+        "name": "Beef Pares",
+        "description": "A Filipino comfort food dish consisting of beef stewed in soy sauce, star anise, and garlic until tender, served with garlic fried rice (sinangag) and a bowl of beef broth.",
+        "ingredients": [
+            "Beef brisket or chuck",
+            "Soy sauce",
+            "Star anise",
+            "Garlic",
+            "Brown sugar",
+            "Beef broth",
+            "Salt and pepper",
+            "Oil"
+        ],
+        "instructions": [
+            "In a pot, sauté garlic in oil until fragrant.",
+            "Add beef and cook until browned on all sides.",
+            "Add soy sauce, star anise, brown sugar, and enough beef broth to cover the meat.",
+            "Bring to a boil, then reduce heat and simmer until beef is tender, about 2-3 hours.",
+            "Season with salt and pepper to taste.",
+            "Serve hot with garlic fried rice (sinangag) and a bowl of beef broth."
+        ],
+        "image": "beef-pares.webp"
+    },
+    {
+        "id": 23,
+        "name": "Daing",
+        "description": "A Filipino dish of salted and dried fish, typically marinated in vinegar and garlic, then fried until crispy. It is commonly served with steamed rice and tomatoes.",
+        "ingredients": [
+            "Dried fish (such as danggit, dilis, or tuyo)",
+            "Vinegar",
+            "Garlic",
+            "Oil",
+            "Salt and pepper"
+        ],
+        "instructions": [
+            "If using dried fish that needs to be softened, soak it in water for about 30 minutes to 1 hour.",
+            "Marinate the dried fish in vinegar and minced garlic for at least 15 minutes.",
+            "Heat oil in a pan over medium heat.",
+            "Fry the marinated dried fish until crispy and golden brown on both sides.",
+            "Serve hot with steamed rice and sliced tomatoes."
+        ],
+        "image": "daing.webp"
+    },
+    {
+        "id": 24,
+        "name": "Jollibee Fried Chicken",
+        "description": "Famous Filipino-style fried chicken known for its crispy skin and juicy meat, usually served with steamed rice and a side of gravy or a sweet and spicy sauce.",
+        "ingredients": [
+            "Chicken pieces (drumsticks, thighs, wings)",
+            "Buttermilk (optional)",
+            "Salt and pepper",
+            "Garlic powder",
+            "Onion powder",
+            "Paprika",
+            "Cornstarch",
+            "Oil for frying"
+        ],
+        "instructions": [
+            "If using buttermilk, marinate chicken pieces in buttermilk, salt, and pepper for at least 1 hour (optional).",
+            "In a bowl, mix salt, pepper, garlic powder, onion powder, paprika, and cornstarch.",
+            "Coat each chicken piece thoroughly with the seasoning mixture.",
+            "Heat oil in a deep fryer or large pot to 350°F (175°C).",
+            "Fry chicken pieces in batches until golden brown and cooked through, about 12-15 minutes per batch.",
+            "Transfer fried chicken to a wire rack or paper towels to drain excess oil.",
+            "Serve hot with steamed rice and your choice of gravy or sauce."
+        ],
+        "image": "jollibee-fried-chicken.webp"
+    },
+    {
+        "id": 25,
+        "name": "Bagoong",
+        "description": "A Filipino condiment made from fermented fish or shrimp, commonly used to add a salty and savory flavor to various dishes such as vegetables, stews, and sauces.",
+        "ingredients": [
+            "Fermented fish or shrimp",
+            "Salt",
+            "Sugar",
+            "Garlic",
+            "Vinegar (optional)"
+        ],
+        "instructions": [
+            "If using fermented fish or shrimp that is too salty, soak it in water for a few minutes, then drain.",
+            "In a bowl, mix fermented fish or shrimp with minced garlic, a pinch of sugar, and vinegar (if desired) to balance the flavors.",
+            "Serve as a condiment alongside dishes like green mangoes, tomatoes, or as a flavoring agent in stews and sauces."
+        ],
+        "image": "bagoong.webp"
     }
+    
+        
 ]

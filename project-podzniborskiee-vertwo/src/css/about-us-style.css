@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
 }
-
 .bottom-about {
     position: relative;
     display: flex;
@@ -19,7 +18,7 @@
     position: absolute;
     top: 0;
     margin-left: 22rem;
-    margin-top: 75rem;
+    margin-top: 100rem;
 }
 .about-info {
     position: absolute;
