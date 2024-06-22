@@ -16,11 +16,30 @@ function Bottom() {
           .copyright-footer{position:absolute;top:0;right:28%;margin-top:15rem}
           .copyright-name{text-align:center;color:#fff}
           .fa-facebook{color:#fff;font-size:20px}
-          @media (max-width: 480px) {
+
+          @media only screen and (max-width: 480px) {
           .bottom-area-adjust{width:100%;height:50%}
           .area-adjust-bottom{margin-top:450rem;margin-left:11rem}
           .more-information{top:5%;margin-right:20rem;font-size:1.2rem}
           .copyright-footer{right:16%}
+          } 
+          @media only screen and (max-width: 400px) {
+          .bottom-area-adjust{width:100%;height:60%}
+          .area-adjust-bottom{margin-top:430rem;margin-left:11rem}
+          .more-information{top:5%;margin-right:15rem;font-size:1.2rem}
+          .copyright-footer{right:16%;margin-top:65%}
+          } 
+          @media only screen and (max-width: 380px) {
+          .bottom-area-adjust{margin:50px;width:120%;height:40%}
+          .area-adjust-bottom{margin-top:430rem;margin-left:17rem}
+          .more-information{top:5%;margin-right:19rem;font-size:1.3rem}
+          .copyright-footer{right:16%;margin-top:67%}
+          }
+          @media only screen and (max-width: 360px) {
+          .bottom-area-adjust{margin:50px;swidth:120%;height:40%}
+          .area-adjust-bottom{margin-top:430rem;margin-left:16rem}
+          .more-information{top:5%;margin-right:17rem;font-size:1.3rem}
+          .copyright-footer{right:15%;margin-top:66%}
           }
           `}
         </style>

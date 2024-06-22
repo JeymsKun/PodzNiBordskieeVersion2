@@ -128,3 +128,36 @@
     font-size: 20px;
 
 }
+
+@media only screen and (max-width: 380px) {
+    #food-image {
+        margin-left: 10rem;
+    }
+    #food-name {
+        margin-left: 10rem;
+    }
+    #food-description {
+        margin-left: 10rem;
+        font-size: 1.4rem;
+    }
+    #food-ingredients {
+        margin-left: 10rem;
+        font-size: 1.4rem;
+    }
+    .food-details-container h2 {
+        margin-left: 10rem;
+    }
+    #food-instructions {
+        margin-left: 10rem;
+        font-size: 1.4rem;
+        padding: 10px;
+        width: 70%;
+    }
+    .bottom-adjust{width:115%;height:40%}
+    .adjust-bottom{margin-top:120rem;margin-left:5rem}
+    .more-info{top:5%;margin-right:16rem;font-size:1.3rem}
+    .footer-copyright{right:17%;margin-top:67%}
+}
+@media only screen and (max-width: 360px) {
+    
+}

@@ -34,7 +34,7 @@ function Welcome() {
           .welcome-text h1 {
               font-family: 'Poppins', sans-serif;
           }
-          @media (max-width: 480px) {
+          @media only screen and (max-width: 480px) {
             .welcome-text {
               font-size: 1.8rem;
             }
@@ -55,6 +55,48 @@ function Welcome() {
               flex-direction: column;
             }
           }
+          @media only screen and (max-width: 380px) {
+            .welcome-text {
+              font-size: 1.9rem;
+            }
+            .welcome-text p {
+              font-size: 1.4rem; 
+            }
+            .welcome-text {
+              position: absolute;
+              margin-top: 75rem;
+              margin-right: -14rem;
+            }
+            .welcome-text h1 {
+              display: flex;
+              flex-direction: column;
+            }
+            .welcome-text p {
+              display: flex;
+              flex-direction: column;
+            }
+          }
+          @media only screen and (max-width: 360px) {
+            .welcome-text {
+              font-size: 1.9rem;
+            }
+            .welcome-text p {
+              font-size: 1.3rem; 
+            }
+            .welcome-text {
+              position: absolute;
+              margin-top: 75rem;
+              margin-right: -14rem;
+            }
+            .welcome-text h1 {
+              display: flex;
+              flex-direction: column;
+            }
+            .welcome-text p {
+              display: flex;
+              flex-direction: column;
+            }
+          }
         `}</style>
       </Helmet>
       <div className="welcome-text-container">
@@ -64,8 +106,8 @@ function Welcome() {
             <br /> Podz Ni <span>Bordskiee</span>
           </h1>
           <p>
-            The underrated food website. <br /> Food brings people together on
-            many <span>different levels.</span>
+            The underrated food website. <br /> Food brings people together <span>on
+            many different levels.</span>
           </p>
         </div>
       </div>

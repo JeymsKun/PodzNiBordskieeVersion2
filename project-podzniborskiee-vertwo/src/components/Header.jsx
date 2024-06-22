@@ -27,7 +27,7 @@ function Header() {
           @media screen and (max-width: 1680px) {
 
           }
-          @media screen and (max-width: 1440px) {
+          @media only screen and (max-width: 1440px) {
           .header{padding:1rem 2%}
           .navbar{margin-right:5%}
           .logo{margin-left:1%}
@@ -71,22 +71,52 @@ function Header() {
           .navbar{position:absolute;top:100%;right:0;width:100%;height:0;background-color:rgba(0,250,33,0.212);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);box-shadow:0 .5rem 1rem rgba(0,0,0,.1);overflow:hidden;transition:.3s ease}
           .navbar a{font-family:'Poppins',sans-serif;font-size:700px}
           .navbar a:hover{color:#89fc0e}
-          .home-btn{color:#0d6d0d}
-          .recipes-btn{color:#258d2a}
-          .about-us-btn{color:#1f9e13}
-          .contact-btn{color:#3cb400}
+          .home-btn, .recipes-btn, .about-us-btn, .contact-btn{color:white}
           #menu-icon{color:#0e750e}
           #close-icon{color:#0e750e}
           #check:checked~.navbar{height:17.7rem}
           .navbar{display:flex;flex-direction:column;align-items:center} 
-          .navbar a{display:block;font-size:1.5rem;margin:1.2rem;text-align:center;transform:translateX(100%);opacity:0;transition:transform .3s ease, opacity .3s ease} /* Adjust transform */
+          .navbar a{display:block;font-size:1.5rem;margin:1.2rem;text-align:center;transform:translateX(100%);opacity:0;transition:transform .3s ease, opacity .3s ease} 
           #check:checked~.navbar a{transform:translateY(0);opacity:1;transition-delay:calc(.15s * var(--i))}
-
           }
-          @media (max-width: 360px) {
-          }
-          @media (max-width: 380px) {
-          }              
+          @media only screen and (max-width: 380px) {
+          .header{height:6%}
+          .icons img{width:75px;height:75px}  
+          .logo img{width:75px;height:75px}
+          .icons{position:absolute;left:80%;font-size:2.8rem}
+          #check:checked~.icons #menu-icon{display:none}
+          .icons #close-icon{display:none}
+          #check:checked~.icons #close-icon{display:block}
+          .navbar{position:absolute;top:100%;right:0;width:91%;height:0;background-color:rgba(0,250,33,0.212);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);box-shadow:0 .5rem 1rem rgba(0,0,0,.1);overflow:hidden;transition:.3s ease}
+          .navbar a{font-family:'Poppins',sans-serif;font-size:700px}
+          .navbar a:hover{color:#89fc0e}
+          .home-btn, .recipes-btn, .about-us-btn, .contact-btn{color:white}
+          #menu-icon{color:#0e750e}
+          #close-icon{color:#0e750e}
+          #check:checked~.navbar{height:17.7rem}
+          .navbar{display:flex;flex-direction:column;align-items:center} 
+          .navbar a{display:block;font-size:1.5rem;margin:1.2rem;text-align:center;transform:translateX(100%);opacity:0;transition:transform .3s ease, opacity .3s ease} 
+          #check:checked~.navbar a{transform:translateY(0);opacity:1;transition-delay:calc(.15s * var(--i))}
+          }       
+          @media only screen and (max-width: 360px) {
+          .header{height:6%}
+          .icons img{width:75px;height:75px}
+          .logo img{width:75px;height:75px}
+          .icons{position:absolute;left:80%;font-size:2.8rem}
+          #check:checked~.icons #menu-icon{display:none}
+          .icons #close-icon{display:none}
+          #check:checked~.icons #close-icon{display:block}
+          .navbar{position:absolute;top:100%;right:0;width:90%;height:0;background-color:rgba(0,250,33,0.212);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);box-shadow:0 .5rem 1rem rgba(0,0,0,.1);overflow:hidden;transition:.3s ease}
+          .navbar a{font-family:'Poppins',sans-serif;font-size:700px}
+          .navbar a:hover{color:#89fc0e}
+          .home-btn, .recipes-btn, .about-us-btn, .contact-btn{color:white}
+          #menu-icon{color:#0e750e}
+          #close-icon{color:#0e750e}
+          #check:checked~.navbar{height:17.7rem}
+          .navbar{display:flex;flex-direction:column;align-items:center} 
+          .navbar a{display:block;font-size:1.5rem;margin:1.2rem;text-align:center;transform:translateX(100%);opacity:0;transition:transform .3s ease, opacity .3s ease} 
+          #check:checked~.navbar a{transform:translateY(0);opacity:1;transition-delay:calc(.15s * var(--i))}
+          }       
           `}
         </style>
       </Helmet>

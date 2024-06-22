@@ -30,32 +30,84 @@ function Latest() {
                 .Egg{position:absolute;top:0;left:0;padding:0 auto;margin-top:85rem;margin-left:5rem}
                 .Fish{position:absolute;top:0;right:0;padding:0 auto;margin-top:115rem;margin-right:5rem}
                 .Squid{position:absolute;top:0;left:0;padding:0 auto;margin-top:115rem;margin-left:5rem}  
-                @media (max-width: 480px) {
+                @media only screen and (max-width: 480px) {
                 .Chicken{position:absolute;top:0;right:0;padding:0 auto;margin-top:24rem;margin-right:-26rem}
                 .Chicken img{width:500px;height:500px}
-                .text-chicken {font-size:1.5rem;}
+                .text-chicken {font-size:1.5rem}
                 .Pork{position:absolute;top:0;left:0;padding:0 auto;margin-top:65rem;margin-left:-5rem}
                 .Pork img{width:500px;height:500px}
-                .text-pork {font-size:1.5rem;}
+                .text-pork {font-size:1.5rem}
                 .Beef{position:absolute;top:0;right:0;padding:0 auto;margin-top:105rem;margin-right:-26rem}
                 .Beef img{width:500px;height:500px}
-                .text-beef {font-size:1.5rem;}
+                .text-beef {font-size:1.5rem}
                 .Goat{position:absolute;top:0;left:0;padding:0 auto;margin-top:145rem;margin-left:-5rem}
                 .Goat img{width:500px;height:500px}
-                .text-goat {font-size:1.5rem;}
+                .text-goat {font-size:1.5rem}
                 .Frog{position:absolute;top:0;right:0;padding:0 auto;margin-top:185rem;margin-right:-26rem}
                 .Frog img{width:500px;height:500px}
-                .text-frog {font-size:1.5rem;}
+                .text-frog {font-size:1.5rem}
                 .Egg{position:absolute;top:0;left:0;padding:0 auto;margin-top:225rem;margin-left:-5rem}
                 .Egg img{width:500px;height:500px}
-                .text-egg {font-size:1.5rem;}
+                .text-egg {font-size:1.5rem}
                 .Fish{position:absolute;top:0;right:0;padding:0 auto;margin-top:265rem;margin-right:-26rem}
                 .Fish img{width:500px;height:500px}
-                .text-fish {font-size:1.5rem;}
+                .text-fish {font-size:1.5rem}
                 .Squid{position:absolute;top:0;left:0;padding:0 auto;margin-top:305rem;margin-left:-5rem} 
                 .Squid img{width:500px;height:500px}
-                .text-squid {font-size:1.5rem;}
-                }           
+                .text-squid {font-size:1.5rem}
+                }                 
+                @media only screen and (max-width: 380px) {
+                .Chicken{position:absolute;top:0;right:0;padding:0 auto;margin-top:20rem;margin-right:-34rem}
+                .Chicken img{width:500px;height:500px}
+                .text-chicken{font-size:1.5rem}
+                .Pork{position:absolute;top:0;left:0;padding:0 auto;margin-top:60rem;margin-left:3rem}
+                .Pork img{width:500px;height:500px}
+                .text-pork{font-size:1.5rem}
+                .Beef{position:absolute;top:0;right:0;padding:0 auto;margin-top:100rem;margin-right:-34rem}
+                .Beef img{width:500px;height:500px}
+                .text-beef{font-size:1.5rem}
+                .Goat{position:absolute;top:0;left:0;padding:0 auto;margin-top:140rem;margin-left:3rem}
+                .Goat img{width:500px;height:500px}
+                .text-goat{font-size:1.5rem}
+                .Frog{position:absolute;top:0;right:0;padding:0 auto;margin-top:180rem;margin-right:-34rem}
+                .Frog img{width:500px;height:500px}
+                .text-frog{font-size:1.5rem}
+                .Egg{position:absolute;top:0;left:0;padding:0 auto;margin-top:220rem;margin-left:3rem}
+                .Egg img{width:500px;height:500px}
+                .text-egg{font-size:1.5rem}
+                .Fish{position:absolute;top:0;right:0;padding:0 auto;margin-top:260rem;margin-right:-34rem}
+                .Fish img{width:500px;height:500px}
+                .text-fish{font-size:1.5rem}
+                .Squid{position:absolute;top:0;left:0;padding:0 auto;margin-top:300rem;margin-left:3rem} 
+                .Squid img{width:500px;height:500px}
+                .text-squid{font-size:1.5rem}
+                }    
+                @media only screen and (max-width: 360px) {
+                .Chicken{position:absolute;top:0;right:0;padding:0 auto;margin-top:20rem;margin-right:-34rem}
+                .Chicken img{width:500px;height:500px}
+                .text-chicken{font-size:1.5rem}
+                .Pork{position:absolute;top:0;left:0;padding:0 auto;margin-top:60rem;margin-left:3rem}
+                .Pork img{width:500px;height:500px}
+                .text-pork{font-size:1.5rem}
+                .Beef{position:absolute;top:0;right:0;padding:0 auto;margin-top:100rem;margin-right:-34rem}
+                .Beef img{width:500px;height:500px}
+                .text-beef{font-size:1.5rem}
+                .Goat{position:absolute;top:0;left:0;padding:0 auto;margin-top:140rem;margin-left:3rem}
+                .Goat img{width:500px;height:500px}
+                .text-goat{font-size:1.5rem}
+                .Frog{position:absolute;top:0;right:0;padding:0 auto;margin-top:180rem;margin-right:-34rem}
+                .Frog img{width:500px;height:500px}
+                .text-frog{font-size:1.5rem}
+                .Egg{position:absolute;top:0;left:0;padding:0 auto;margin-top:220rem;margin-left:3rem}
+                .Egg img{width:500px;height:500px}
+                .text-egg{font-size:1.5rem}
+                .Fish{position:absolute;top:0;right:0;padding:0 auto;margin-top:260rem;margin-right:-34rem}
+                .Fish img{width:500px;height:500px}
+                .text-fish{font-size:1.5rem}
+                .Squid{position:absolute;top:0;left:0;padding:0 auto;margin-top:300rem;margin-left:3rem} 
+                .Squid img{width:500px;height:500px}
+                .text-squid{font-size:1.5rem}
+                }          
            `}</style>
         </Helmet>
 

@@ -50,11 +50,25 @@ function Slideshow() {
             height: 100%;
             object-fit: cover;
           }
-          @media (max-width: 480px) {
+          @media only screen and (max-width: 480px) {
             .slideshow {
               margin-top: 70px;
               width: calc(100vw * 1.70);
               height: calc(100vw * 1.75);
+            }
+          }
+          @media only screen and (max-width: 380px) {
+            .slideshow {
+              margin-top: 120px;
+              width: calc(100vw * 2.60);
+              height: calc(100vw * 1.70); 
+            }
+          }
+          @media only screen and (max-width: 360px) {
+            .slideshow {
+              margin-top: 120px;
+              width: calc(100vw * 2.60);
+              height: calc(100vw * 1.70); 
             }
           }
         `}</style>

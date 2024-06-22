@@ -24,7 +24,7 @@ function LatestTitle() {
               line-height: 1.8;
               color: #258d2a;
           }
-          @media (max-width: 480px) {
+         @media only screen and (max-width: 480px) {
             .welcome-the-most-message {
               position: absolute;
               margin-top: 25rem; 
@@ -35,6 +35,34 @@ function LatestTitle() {
               font-size: 1.8rem; 
               margin-bottom: 10px; 
               line-height: 1.9; 
+            }
+          }
+         @media only screen and (max-width: 380px) {
+            .welcome-the-most-message {
+              position: absolute;
+              margin-top: 25rem; 
+              margin-right: -28rem;
+            }
+            .top-message {
+              font-size: 1.7rem; 
+              margin-bottom: 10px; 
+              line-height: 1.9; 
+              font-weight: 800;
+              width: 150%;
+            }
+          }
+          @media only screen and (max-width: 360px) {
+            .welcome-the-most-message {
+              position: absolute;
+              margin-top: 25rem; 
+              margin-right: -28rem;
+            }
+            .top-message {
+              font-size: 1.7rem; 
+              margin-bottom: 10px; 
+              line-height: 1.9; 
+              font-weight: 800;
+              width: 150%;
             }
           }
         `}</style>

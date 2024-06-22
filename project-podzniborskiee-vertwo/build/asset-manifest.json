@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/amantiad-maserin/static/css/main.9e8c9205.css",
-    "main.js": "/amantiad-maserin/static/js/main.0614ee04.js",
+    "main.js": "/amantiad-maserin/static/js/main.ea806fe6.js",
     "static/js/453.4a1cb4ce.chunk.js": "/amantiad-maserin/static/js/453.4a1cb4ce.chunk.js",
     "static/media/amantiad.webp": "/amantiad-maserin/static/media/amantiad.411fa04bc72cd7cd49c8.webp",
     "static/media/caesar-salad.webp": "/amantiad-maserin/static/media/caesar-salad.802a3317fdc2f00bdb0b.webp",
@@ -48,11 +48,11 @@
     "static/media/close.webp": "/amantiad-maserin/static/media/close.8634d6fb7dbc1694707f.webp",
     "static/media/menu.webp": "/amantiad-maserin/static/media/menu.9edadff1a53817eae474.webp",
     "main.9e8c9205.css.map": "/amantiad-maserin/static/css/main.9e8c9205.css.map",
-    "main.0614ee04.js.map": "/amantiad-maserin/static/js/main.0614ee04.js.map",
+    "main.ea806fe6.js.map": "/amantiad-maserin/static/js/main.ea806fe6.js.map",
     "453.4a1cb4ce.chunk.js.map": "/amantiad-maserin/static/js/453.4a1cb4ce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e8c9205.css",
-    "static/js/main.0614ee04.js"
+    "static/js/main.ea806fe6.js"
   ]
 }
