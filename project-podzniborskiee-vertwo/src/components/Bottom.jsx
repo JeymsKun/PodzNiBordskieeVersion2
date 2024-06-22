@@ -16,6 +16,12 @@ function Bottom() {
           .copyright-footer{position:absolute;top:0;right:28%;margin-top:15rem}
           .copyright-name{text-align:center;color:#fff}
           .fa-facebook{color:#fff;font-size:20px}
+          @media (max-width: 480px) {
+          .bottom-area-adjust{width:100%;height:50%}
+          .area-adjust-bottom{margin-top:450rem;margin-left:11rem}
+          .more-information{top:5%;margin-right:20rem;font-size:1.2rem}
+          .copyright-footer{right:16%}
+          }
           `}
         </style>
       </Helmet>

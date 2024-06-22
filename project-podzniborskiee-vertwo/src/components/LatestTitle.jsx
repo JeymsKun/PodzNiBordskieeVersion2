@@ -24,6 +24,19 @@ function LatestTitle() {
               line-height: 1.8;
               color: #258d2a;
           }
+          @media (max-width: 480px) {
+            .welcome-the-most-message {
+              position: absolute;
+              margin-top: 25rem; 
+              margin-right: -28rem;
+              width: 150%;
+            }
+            .top-message {
+              font-size: 1.8rem; 
+              margin-bottom: 10px; 
+              line-height: 1.9; 
+            }
+          }
         `}</style>
       </Helmet>
       <section className="welcome-homepage">

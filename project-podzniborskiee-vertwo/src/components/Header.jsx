@@ -1,6 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import projectLogo from '../img/logo.webp';
+import menuIcon from '../img/menu.webp'; 
+import closeIcon from '../img/close.webp'; 
 import { Link } from 'react-router-dom';
 
 function Header() {
@@ -21,6 +23,7 @@ function Header() {
           .navbar a:hover{color:#89fc0e}
           #check{display:none}
           .icons{position:absolute;left:80%;font-size:2.8rem;cursor:pointer;display:none}
+          .icons img{width:40px;height:40px}
           @media screen and (max-width: 1680px) {
 
           }
@@ -57,12 +60,15 @@ function Header() {
           .navbar a{display:block;font-size:1.1rem;margin:1.5rem 0;text-align:center;transform:translateY(-50px);opacity:0;transition:.3s ease}
           #check:checked~.navbar a{transform:translateY(0);opacity:1;transition-delay:calc(.15s * var(--i))}
           }
-          @media (max-width: 320px) {
-          .icons{position:absolute;left:40%;font-size:2.8rem}
+          @media (max-width: 480px) {
+          .header{height:5%}
+          .icons img{width:50px;height:50px}
+          .logo img{width:60px;height:60px}
+          .icons{position:absolute;left:80%;font-size:2.8rem}
           #check:checked~.icons #menu-icon{display:none}
           .icons #close-icon{display:none}
           #check:checked~.icons #close-icon{display:block}
-          .navbar{position:absolute;top:100%;left:0;width:100%;height:0;background-color:rgba(0,250,33,0.212);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);box-shadow:0 .5rem 1rem rgba(0,0,0,.1);overflow:hidden;transition:.3s ease}
+          .navbar{position:absolute;top:100%;right:0;width:100%;height:0;background-color:rgba(0,250,33,0.212);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);box-shadow:0 .5rem 1rem rgba(0,0,0,.1);overflow:hidden;transition:.3s ease}
           .navbar a{font-family:'Poppins',sans-serif;font-size:700px}
           .navbar a:hover{color:#89fc0e}
           .home-btn{color:#0d6d0d}
@@ -72,22 +78,28 @@ function Header() {
           #menu-icon{color:#0e750e}
           #close-icon{color:#0e750e}
           #check:checked~.navbar{height:17.7rem}
-          .navbar a{display:block;font-size:1.1rem;margin:1.5rem 0;text-align:center;transform:translateY(-50px);opacity:0;transition:.3s ease}
+          .navbar{display:flex;flex-direction:column;align-items:center} 
+          .navbar a{display:block;font-size:1.5rem;margin:1.2rem;text-align:center;transform:translateX(100%);opacity:0;transition:transform .3s ease, opacity .3s ease} /* Adjust transform */
           #check:checked~.navbar a{transform:translateY(0);opacity:1;transition-delay:calc(.15s * var(--i))}
-          }          
+
+          }
+          @media (max-width: 360px) {
+          }
+          @media (max-width: 380px) {
+          }              
           `}
         </style>
       </Helmet>
 
       <header className="header">
         <Link to="/home/" className="logo">
-        <img src={projectLogo} alt="logo" width="50" height="50" />
+          <img src={projectLogo} alt="logo" width="50" height="50" />
         </Link>
 
         <input type="checkbox" id="check" />
         <label htmlFor="check" className="icons">
-          <i className="bx bx-menu" id="menu-icon"></i>
-          <i className="bx bx-x" id="close-icon"></i>
+          <img src={menuIcon} alt="menu icon" id="menu-icon" />
+          <img src={closeIcon} alt="close icon" id="close-icon" />
         </label>
 
         <nav className="navbar">

@@ -50,6 +50,13 @@ function Slideshow() {
             height: 100%;
             object-fit: cover;
           }
+          @media (max-width: 480px) {
+            .slideshow {
+              margin-top: 70px;
+              width: calc(100vw * 1.70);
+              height: calc(100vw * 1.75);
+            }
+          }
         `}</style>
       </Helmet>
 

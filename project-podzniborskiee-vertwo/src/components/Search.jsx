@@ -98,6 +98,28 @@ function Search() {
           .suggestions-search-home.hidden {
             display: none;
           }
+          @media (max-width: 480px) {
+             .search-form {
+                margin-top: 700rem;
+                margin-left: 7rem;
+            }
+            .search-input-home {
+              height: 40px;
+              width: 550px;
+              font-size: 1.5rem;
+            }
+            form p {
+              font-size: 1.8rem;
+            }
+            ::placeholder {
+              font-size: 1.5rem;  
+            }
+            .suggestions-search-home {
+              font-size: 1.5rem;
+              width: 530px;
+            }
+            
+          }
         `}</style>
       </Helmet>
       <form>

@@ -29,7 +29,33 @@ function Latest() {
                 .Frog{position:absolute;top:0;right:0;padding:0 auto;margin-top:85rem;margin-right:5rem}
                 .Egg{position:absolute;top:0;left:0;padding:0 auto;margin-top:85rem;margin-left:5rem}
                 .Fish{position:absolute;top:0;right:0;padding:0 auto;margin-top:115rem;margin-right:5rem}
-                .Squid{position:absolute;top:0;left:0;padding:0 auto;margin-top:115rem;margin-left:5rem}             
+                .Squid{position:absolute;top:0;left:0;padding:0 auto;margin-top:115rem;margin-left:5rem}  
+                @media (max-width: 480px) {
+                .Chicken{position:absolute;top:0;right:0;padding:0 auto;margin-top:24rem;margin-right:-26rem}
+                .Chicken img{width:500px;height:500px}
+                .text-chicken {font-size:1.5rem;}
+                .Pork{position:absolute;top:0;left:0;padding:0 auto;margin-top:65rem;margin-left:-5rem}
+                .Pork img{width:500px;height:500px}
+                .text-pork {font-size:1.5rem;}
+                .Beef{position:absolute;top:0;right:0;padding:0 auto;margin-top:105rem;margin-right:-26rem}
+                .Beef img{width:500px;height:500px}
+                .text-beef {font-size:1.5rem;}
+                .Goat{position:absolute;top:0;left:0;padding:0 auto;margin-top:145rem;margin-left:-5rem}
+                .Goat img{width:500px;height:500px}
+                .text-goat {font-size:1.5rem;}
+                .Frog{position:absolute;top:0;right:0;padding:0 auto;margin-top:185rem;margin-right:-26rem}
+                .Frog img{width:500px;height:500px}
+                .text-frog {font-size:1.5rem;}
+                .Egg{position:absolute;top:0;left:0;padding:0 auto;margin-top:225rem;margin-left:-5rem}
+                .Egg img{width:500px;height:500px}
+                .text-egg {font-size:1.5rem;}
+                .Fish{position:absolute;top:0;right:0;padding:0 auto;margin-top:265rem;margin-right:-26rem}
+                .Fish img{width:500px;height:500px}
+                .text-fish {font-size:1.5rem;}
+                .Squid{position:absolute;top:0;left:0;padding:0 auto;margin-top:305rem;margin-left:-5rem} 
+                .Squid img{width:500px;height:500px}
+                .text-squid {font-size:1.5rem;}
+                }           
            `}</style>
         </Helmet>
 

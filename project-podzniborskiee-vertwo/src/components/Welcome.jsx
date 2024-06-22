@@ -34,17 +34,38 @@ function Welcome() {
           .welcome-text h1 {
               font-family: 'Poppins', sans-serif;
           }
+          @media (max-width: 480px) {
+            .welcome-text {
+              font-size: 1.8rem;
+            }
+            .welcome-text p {
+              font-size: 1.1rem; 
+            }
+            .welcome-text {
+              position: absolute;
+              margin-top: 65rem;
+              margin-right: -4rem;
+            }
+            .welcome-text h1 {
+              display: flex;
+              flex-direction: column;
+            }
+            .welcome-text p {
+              display: flex;
+              flex-direction: column;
+            }
+          }
         `}</style>
       </Helmet>
       <div className="welcome-text-container">
         <div className="welcome-text">
           <h1>
             Welcome to
-            <br /> Podz Ni Bordskiee
+            <br /> Podz Ni <span>Bordskiee</span>
           </h1>
           <p>
             The underrated food website. <br /> Food brings people together on
-            many different levels.
+            many <span>different levels.</span>
           </p>
         </div>
       </div>

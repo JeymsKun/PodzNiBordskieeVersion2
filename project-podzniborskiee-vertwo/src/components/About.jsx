@@ -99,6 +99,8 @@ function About() {
                         margin-bottom: 20px;
                         color: #1f9e13;
                     }
+               
+                    }
                 `}</style>
             </Helmet>
             <div className="container-about-us about-us-container">
